@@ -10,3 +10,7 @@ def calcula_tamanho_dataframe(dataframe : pd.DataFrame):
     print(
         f"O dataframe tem tamanho {dataframe.shape}"
         )
+    print(
+        f"As colunas neste dataframe são {",".join(dataframe.columns)}"
+        )
+    
